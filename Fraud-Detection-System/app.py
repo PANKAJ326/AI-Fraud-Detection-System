@@ -47,7 +47,7 @@ st.sidebar.markdown(
 )
 
 st.sidebar.markdown(
-    "<p style='text-align:center;color:gray;'>Industry-Based ML Project</p>",
+    "<p style='text-align:center;color:gray;'>Research-Based ML Project</p>",
     unsafe_allow_html=True
 )
 
