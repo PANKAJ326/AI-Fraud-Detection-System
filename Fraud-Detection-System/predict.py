@@ -1,8 +1,16 @@
+
 import joblib
 import pandas as pd
+from pathlib import Path
 
-# Load trained model
-model = joblib.load("models/fraud_model.pkl")
+# Get the directory where predict.py is located
+BASE_DIR = Path(__file__).resolve().parent
+
+# Load trained model using absolute path
+MODEL_PATH = BASE_DIR / "models" / "fraud_model.pkl"
+
+model = joblib.load(MODEL_PATH)
+
 
 def predict_transactions(data):
     """
