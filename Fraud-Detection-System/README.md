@@ -70,4 +70,5 @@ The prediction history uses an automated SQLite backend configured as follows:
 
 📝 Author
 Pankaj Soni
+Tarun Khatana
 
